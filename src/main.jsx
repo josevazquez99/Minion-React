@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import MinionsList from './App.jsx'
+import Minions from './Minion/ListMinion.jsx'
+import Minion from './Minion/ViewMinion.jsx'
+import Add from './Minion/Add.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <MinionsList />
+    {/*<Minion />*/}
+    <Minions />
+    <Add />
   </React.StrictMode>,
 )
